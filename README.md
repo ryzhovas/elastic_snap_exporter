@@ -3,7 +3,7 @@ snapshots and shards info
 
 Fast docker start
 ```
-docker run -p 9091:9091 teamat/es_custom_exporter:v1 -u=http://elasticsearch_host:9200
+docker run -p 9091:9091 teamat/es_custom_exporter:latest -u=http://elasticsearch_host:9200
 ```
 
 Metrics
